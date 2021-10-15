@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <title>Dropdown</title>
+</head>
+<body>
+    <div class="container bg-black">
+        <h4 class="text-white">Esempi di dropdown</h4>
+        <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown-menu
+            </button>
+            <ul class="dropdown-menu">
+                <li><h4 class="dropdown-header">Header 1</h4></li>
+                <li><a class="dropdown-item" href="#">link 1</a></li>
+                <li><a class="dropdown-item disabled" href="#">link 2</a></li>
+                <li><a class="dropdown-item active" href="#">link 3</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><h4 class="dropdown-header">Header 2</h4></li>
+                <li><a class="dropdown-item" href="#">link 4</a></li>
+            </ul>
+        </div>
+
+        <div class="dropdown dropend mt-4">
+            <button class="btn btn-outline-success dropdown-toggle" data-bs-toggle="dropdown">
+                Dropdown-menu-2
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Link 1</a></li>
+                <li><a class="dropdown-item dropdown-item-text">Link 2</a></li>
+                <li><a class="dropdown-item dropdown-item-text bg-warning">Link 3</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

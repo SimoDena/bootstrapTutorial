@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <title>Bottoni</title>
+    <style>
+        p{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>La classe btn può essere usata sui tag a, button e input</p>
+        <button class="btn btn-primary">Bottone 1</button>
+        <button class="btn btn-outline-primary">Bottone 2</button>
+        <a href="#" class="btn btn-primary">Bottone 3</a>
+        <input type="button" class="btn btn-primary" value="Bottone 4" />
+
+        <p>Dimensioni</p>
+        <button class="btn btn-secondary btn-lg">Grande</button>
+        <button class="btn btn-secondary">Normale</button>
+        <button class="btn btn-secondary btn-sm">Piccolo</button>
+
+        <p>Attivo/Disabilitato</p>
+        <button class="btn btn-dark" disabled>Disabilitato</button>
+        <button class="btn btn-dark active">Attivo</button>
+
+        <p>Spinner</p>
+        <button class="btn btn-outline-secondary">
+            <span class="spinner-border spinner-border-sm"></span>
+            Bottone Spinner
+        </button>
+
+        <p>Bottone con badge</p>
+        <button class="btn btn-success">
+            Notifiche <span class="badge bg-danger">4</span>
+        </button>
+    </div>
+</body>
+</html>
