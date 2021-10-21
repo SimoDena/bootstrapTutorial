@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <title>Offcanvas</title>
+</head>
+<body>
+    <div class="offcanvas offcanvas-start" id="demo">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title">Titolo</h1>
+            <button class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>testo</p>
+            <p>testo testo</p>
+            <button class="btn btn-secondary">Bottone</button>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-end" id="demo1">
+        <div class="offcanvas-header">
+            <h1 class="offcanvas-title">Titolo</h1>
+            <button class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body container-fluid">
+            <div class="list-group">
+                <a class="list-group-item list-group-item-action" href="#">Link 1</a>
+                <a class="list-group-item list-group-item-action" href="#">Link 2</a>
+                <a class="list-group-item list-group-item-action" href="#">Link 3</a>
+                <a class="list-group-item list-group-item-action" href="#">Link 4</a>
+            </div>
+        </div>
+    </div>
+
+    <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#demo">
+        Apri sidebar
+    </button>
+
+    <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#demo1">
+        Apri sidebar destra
+    </button>
+</body>
+</html>
