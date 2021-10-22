@@ -96,7 +96,8 @@
     <Content Include="collapse.html" />
     <Content Include="colori.html" />
     <Content Include="dropdown.html" />
-    <Content Include="Form.html" />
+    <Content Include="form.html" />
+    <Content Include="icons.html" />
     <Content Include="images\index.png" />
     <Content Include="immagini.html" />
     <Content Include="liste.html" />
@@ -140,6 +141,7 @@
     <Content Include="bootstrap\js\bootstrap.esm.min.js.map" />
     <Content Include="bootstrap\js\bootstrap.js.map" />
     <Content Include="bootstrap\js\bootstrap.min.js.map" />
+    <Content Include="libman.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
